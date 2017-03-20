@@ -21,4 +21,4 @@ $(this).noticeHoreca('Item successfully created!', 'success_notice');
 
 $(this).noticeHoreca('Error adding information!', 'error_notice', {autoclose : false, closeBtn : true, height : 100} );
 
-$(this).noticeHoreca('Pay attention here', 'info_notice', {autoclose : false, closeBtn : true, height : 150, position : 'fixed-bottom'} );
+$(this).noticeHoreca('Attention here', 'info_notice', {autoclose : false, closeBtn : true, height : 150, position : 'fixed-bottom'} );
