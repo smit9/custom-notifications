@@ -25,8 +25,8 @@ countElements    - number of notifications (one by default)
 
 # Examples:
 
-$(this).noticeHoreca('Item successfully created!', 'success_notice');
+$(this).customNotice('Item successfully created!', 'success_notice');
 
-$(this).noticeHoreca('Error adding information!', 'error_notice', {autoclose : false, closeBtn : true, height : 100} );
+$(this).customNotice('Error adding information!', 'error_notice', {autoclose : false, closeBtn : true, height : 100} );
 
-$(this).noticeHoreca('Attention here', 'info_notice', {autoclose : false, closeBtn : true, height : 150, position : 'fixed-bottom'} );
+$(this).customNotice('Attention here', 'info_notice', {autoclose : false, closeBtn : true, height : 150, position : 'fixed-bottom'} );
